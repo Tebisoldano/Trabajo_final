@@ -62,7 +62,17 @@ footer h4{color: white;
 
 
 h2{font-weight:700;
-font-size: 70px;}
+font-size: 70px;
+text-align: center;}
 
 
 #trabajo{color: white;}
+
+
+.carousel-indicators {
+  top: 100px;
+}
+
+.carou{
+  padding-bottom: 100px;
+}
