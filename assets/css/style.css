@@ -6,5 +6,39 @@ header {
   background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 30rem;
+  background-position: top;
+
+  padding-bottom: 0rem;
+  padding-top: 30rem;
 }
+
+
+
+.intro{
+  line-height: 40px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+.experiencia{
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+
+
+footer{}
+footer i {color: white;}
+footer h4{color: white;
+  font-size: 50px;
+}
+
+
+
+h2{font-weight:700;
+font-size: 70px;}
+
+
+#trabajo{color: white;}
