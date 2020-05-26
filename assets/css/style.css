@@ -12,7 +12,14 @@ header {
   padding-top: 30rem;
 }
 
+#yosoy{
+  font-weight: 300;
+  font-size: 100px;
+}
 
+.sub{
+  font-size: 150px;
+}
 
 .intro{
   line-height: 40px;
@@ -20,16 +27,25 @@ header {
   padding-bottom: 5rem;
 }
 
-
 .experiencia{
   text-align: center;
   vertical-align: middle;
-
 }
 
+.exptrabajos{
+  font-weight: 700;
+}
 
+.años{
+  font-weight: 300;
+  font-size: 40px;
+}
 
-footer{}
+footer{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
 footer i {color: white;}
 footer h4{color: white;
   font-size: 50px;
