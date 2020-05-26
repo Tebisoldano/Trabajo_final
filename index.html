@@ -17,43 +17,46 @@
   </head>
   <body>
 
+<!-- NAVEGADOR -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-  <a class="navbar-brand" href="#">SOLDANO</a>
+<div class="container">
   <img src="assets/img/logo-blanco.png" height="30" class="logo" alt="">
+    <a class="navbar-brand" href="#">SOLDANO</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Sobre mi</a>
+        <a class="nav-link" href="#soy">Sobre mi</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Experiencia</a>
+        <a class="nav-link" href="#expe">Experiencia</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Trabajos</a>
+        <a class="nav-link" href="#traba">Trabajos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="#conta">Contacto</a>
       </li>
     </ul>
   </div>
+</div>
 </nav>
 
 
+<!-- HEADER -->
 <header class="hero text-light text-right">
 <div class="container">
 <h4 class="text-center" id="yosoy">YO SOY</h4>
 <hr size="5px" width="10%" color="white">
-<h1 class="display-3 font-weight-bold my-5  text-center" class="">SOLDANO SEBASTIAN</h1>
+<h1 class="display-3 font-weight-bold my-5  text-center" id="soy">SOLDANO SEBASTIAN</h1>
 </div>
 </header>
 
 
-
-
-
+<!-- ACERCADEMI -->
 <section class="intro">
   <h3 class="container text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h3>
   <br>
@@ -71,12 +74,11 @@
   </div>
   <br>
   <hr size="5px" width="10%" color="black">
-
 </section>
 
 
-
-<section class="experiencia">
+<!-- EXPERIENCIA -->
+<section class="experiencia" id="expe">
   <h2>MI EXPERIENCIA</h2>
   <br>
   <hr size="5px" width="10%" color="black">
@@ -97,9 +99,9 @@
   <br>
 </section>
 
-<br>
 
-<section class="bg-warning pt-5 pb-5">
+<!-- TRABAJOS -->
+<section class="bg-warning pt-5 pb-5" id="traba">
 <h2 class="text-center" id="trabajo">MIS TRABAJOS</h2>
 <hr width="10%" color="white">
 <br>
@@ -117,7 +119,7 @@
           <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Secador Prisma</h5>
-            <p class="card-text">Secador de pelo portatil, con mini USB</p>
+            <p class="card-text">Secador de pelo portatil, con mini USB y beteria de litio</p>
             <a href="#" class="btn btn-warning">Ver Mas</a>
           </div>
         </div>
@@ -160,8 +162,20 @@
   </div>
 </section>
 
-<br>
 
+<!-- CONTACTO -->
+<section class="contacto" id="conta">
+  <div class="">
+    <h2>CONTACTO</h2>
+    <hr size="5px" width="10%" color="black">
+  </div>
+  <div class="">
+    <div class="typeform-widget" data-url="https://sebassoldano.typeform.com/to/bmPw9b" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=bmPw9b&utm_source=typeform.com-01E97B8QYFHB5FSAKXH7XVVSRR-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
 <footer class="bg-warning" class="container" >
   <div class="container">
     <div class="row">
@@ -176,20 +190,7 @@
       </div>
     </div>
   </div>
-
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

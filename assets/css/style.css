@@ -41,6 +41,12 @@ header {
   font-size: 40px;
 }
 
+.contacto{
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
 footer{
   padding-top: 5rem;
   padding-bottom: 5rem;
