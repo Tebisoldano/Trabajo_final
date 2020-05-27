@@ -59,7 +59,11 @@ footer h4{color: white;
   font-size: 50px;
 }
 
-
+.s{
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+}
 
 h2{font-weight:700;
 font-size: 70px;
